@@ -2,21 +2,77 @@ p {
   margin:0
 }
 
+.backgroundImage {
+  width: calc(100vw - 14px);
+  height: 100vh;
+}
+
 .topMenuBar {
-  display: flex;
-  align-items: center;
-  border-bottom: 2px solid gray;
-}
-
-.topMenuBar *{
-  margin: 15px;
-}
-
-.rSide {
-  margin-left: auto;
+  backdrop-filter: blur(3px); /* Adjust the blur strength as needed */
+  background-color: rgba(255, 255, 255, 0.5); /* White with slight transparency */
+  font-family: 'Sans-serif', sans-serif; /* Use a sans-serif font */
+  font-weight: bold; /* Bold text */
+  padding: 10px; /* Adjust padding as needed */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  position: fixed; /* Fixed position so it stays at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensure it's above other elements */
 }
 
 .logo {
-  height: 20px;
-  width: 40px;
+  max-height: 40px; /* Adjust the max height of the logo as needed */
+  margin-right: 10px; /* Add some spacing to the right of the logo */
+}
+
+.topMenuBar a {
+  text-decoration: none; /* Remove default underline for anchor tags */
+  color: black; /* Set the text color */
+  padding: 10px; /* Add some spacing around each anchor */
+}
+
+.rDivider {
+  margin-left: auto; /* Push the following anchors to the right */
+}
+
+.scheduler {
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-top: 175px;
+  margin-left: 100px;
+  height: 350px;
+  width: 275px;
+  position: absolute;
+  font-family: 'Sans-serif', sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.scheduler h1 {
+  padding: 10px;
+  font-family:'Varela Round';
+  font-size: medium;
+}
+
+.scheduler p {
+  padding: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+}
+
+.scheduler img {
+  max-height: 30px;
+  margin-left: -15px;
+}
+
+#titleBar {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(135, 206, 235, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
 }

@@ -1,24 +1,19 @@
 import './App.css';
+import { Presentation } from './Presentation';
 import { TopMenuBar } from './TopMenuBar';
+import logo from './images/placeholder-logo-1.png'
 
 function App() {
+
+  const images = [
+    require('./images/slider-nautico.e83e3c1.jpg'),
+    require('./images/slider-nautico2.jpg')
+  ]
+
   return (
     <>
-    <TopMenuBar/>
-    <div className='botMenuBar'></div>
-    <div className='content'>
-      <img/>
-      <div className='textSection1'>
-        <h3></h3>
-        <p></p>
-      </div>
-      <div className='yellowSection'>
-        <div></div>
-        <img></img>
-        <img></img>
-      </div>
-
-    </div>
+    <TopMenuBar logo={logo}/>
+    <Presentation /* unavailables={unavailables} */ images={images}/>
     </>
   );
 }
