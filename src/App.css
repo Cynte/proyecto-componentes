@@ -1,0 +1,22 @@
+p {
+  margin:0
+}
+
+.topMenuBar {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+
+.topMenuBar *{
+  margin: 15px;
+}
+
+.rSide {
+  margin-left: auto;
+}
+
+.logo {
+  height: 20px;
+  width: 40px;
+}
