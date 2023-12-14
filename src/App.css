@@ -2,11 +2,6 @@ p {
   margin:0
 }
 
-.backgroundImage {
-  width: calc(100vw - 14px);
-  height: 100vh;
-}
-
 .topMenuBar {
   backdrop-filter: blur(3px); /* Adjust the blur strength as needed */
   background-color: rgba(255, 255, 255, 0.5); /* White with slight transparency */
@@ -22,15 +17,27 @@ p {
   z-index: 1000; /* Ensure it's above other elements */
 }
 
+.background {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
 .logo {
   max-height: 40px; /* Adjust the max height of the logo as needed */
   margin-right: 10px; /* Add some spacing to the right of the logo */
 }
 
 .topMenuBar a {
-  text-decoration: none; /* Remove default underline for anchor tags */
-  color: black; /* Set the text color */
-  padding: 10px; /* Add some spacing around each anchor */
+  text-decoration: none;
+  color: #012147;
+  padding: 10px;
 }
 
 .rDivider {
@@ -75,4 +82,48 @@ p {
   align-items: center;
   justify-content: center;
   border-radius: 5px;
+}
+
+input[type="range"] {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  margin-top: 90px;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: #012147;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: rgb(59, 168, 211);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #4CAF50;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.datePicker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
+
+.datePicker img {
+  padding-bottom: 5px;
 }

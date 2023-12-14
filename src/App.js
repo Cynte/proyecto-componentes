@@ -1,13 +1,16 @@
 import './App.css';
 import { Presentation } from './Presentation';
 import { TopMenuBar } from './TopMenuBar';
-import logo from './images/placeholder-logo-1.png'
+import logo from './images/KaluKosten.png'
 
 function App() {
 
   const images = [
-    require('./images/slider-nautico.e83e3c1.jpg'),
-    require('./images/slider-nautico2.jpg')
+    require('./images/jpeg-optimizer_iStock-1080073590.jpg'),
+    require('./images/jpeg-optimizer_iStock-1219739606.jpg'),
+    require('./images/jpeg-optimizer_iStock-1282110732.jpg'),
+    require('./images/jpeg-optimizer_iStock-1328216244.jpg'),
+    require('./images/jpeg-optimizer_iStock-475774878.jpg')
   ]
 
   return (
