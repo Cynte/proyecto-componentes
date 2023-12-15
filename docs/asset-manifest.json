@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.5df2c144.css",
-    "main.js": "./static/js/main.66e665b4.js",
-    "static/media/jpeg-optimizer_iStock-1282110732.jpg": "./static/media/jpeg-optimizer_iStock-1282110732.9e5fabb9ff1f3ff5f879.jpg",
-    "static/media/jpeg-optimizer_iStock-1219739606.jpg": "./static/media/jpeg-optimizer_iStock-1219739606.06021c0eba7b5d9ad978.jpg",
-    "static/media/jpeg-optimizer_iStock-1328216244.jpg": "./static/media/jpeg-optimizer_iStock-1328216244.3fdc959e1b3592e40883.jpg",
-    "static/media/jpeg-optimizer_iStock-1080073590.jpg": "./static/media/jpeg-optimizer_iStock-1080073590.ff86807f2195c60e44c5.jpg",
-    "static/media/jpeg-optimizer_iStock-475774878.jpg": "./static/media/jpeg-optimizer_iStock-475774878.a9a8d62adda7223d0133.jpg",
-    "static/media/englishLogo.png": "./static/media/englishLogo.52771aec2e36ea5cd1b4.png",
-    "static/media/KaluKosten.png": "./static/media/KaluKosten.70b90b4235d4a0c51230.png",
-    "static/media/spanishLogo.png": "./static/media/spanishLogo.330c919e3761907409af.png",
-    "static/media/sLogo.png": "./static/media/sLogo.6a75519d51759fc39756.png",
-    "index.html": "/index.html",
-    "main.5df2c144.css.map": "./static/css/main.5df2c144.css.map",
-    "main.66e665b4.js.map": "./static/js/main.66e665b4.js.map"
+    "main.css": "/proyecto-componentes/static/css/main.5df2c144.css",
+    "main.js": "/proyecto-componentes/static/js/main.78ffe8df.js",
+    "static/media/jpeg-optimizer_iStock-1282110732.jpg": "/proyecto-componentes/static/media/jpeg-optimizer_iStock-1282110732.9e5fabb9ff1f3ff5f879.jpg",
+    "static/media/jpeg-optimizer_iStock-1219739606.jpg": "/proyecto-componentes/static/media/jpeg-optimizer_iStock-1219739606.06021c0eba7b5d9ad978.jpg",
+    "static/media/jpeg-optimizer_iStock-1328216244.jpg": "/proyecto-componentes/static/media/jpeg-optimizer_iStock-1328216244.3fdc959e1b3592e40883.jpg",
+    "static/media/jpeg-optimizer_iStock-1080073590.jpg": "/proyecto-componentes/static/media/jpeg-optimizer_iStock-1080073590.ff86807f2195c60e44c5.jpg",
+    "static/media/jpeg-optimizer_iStock-475774878.jpg": "/proyecto-componentes/static/media/jpeg-optimizer_iStock-475774878.a9a8d62adda7223d0133.jpg",
+    "static/media/englishLogo.png": "/proyecto-componentes/static/media/englishLogo.52771aec2e36ea5cd1b4.png",
+    "static/media/KaluKosten.png": "/proyecto-componentes/static/media/KaluKosten.70b90b4235d4a0c51230.png",
+    "static/media/spanishLogo.png": "/proyecto-componentes/static/media/spanishLogo.330c919e3761907409af.png",
+    "static/media/sLogo.png": "/proyecto-componentes/static/media/sLogo.6a75519d51759fc39756.png",
+    "index.html": "/proyecto-componentes/index.html",
+    "main.5df2c144.css.map": "/proyecto-componentes/static/css/main.5df2c144.css.map",
+    "main.78ffe8df.js.map": "/proyecto-componentes/static/js/main.78ffe8df.js.map"
   },
   "entrypoints": [
     "static/css/main.5df2c144.css",
-    "static/js/main.66e665b4.js"
+    "static/js/main.78ffe8df.js"
   ]
 }
