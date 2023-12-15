@@ -34,10 +34,18 @@ p {
   margin-right: 10px; /* Add some spacing to the right of the logo */
 }
 
+.flag {
+  padding: 5px;
+  height: 20px;
+  width: 35px;
+  border-radius: 8px;
+}
+
 .topMenuBar a {
   text-decoration: none;
   color: #012147;
-  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
 }
 
 .rDivider {
@@ -84,46 +92,75 @@ p {
   border-radius: 5px;
 }
 
-input[type="range"] {
-  width: 80%;
-  margin: 0 auto;
-  display: block;
-  margin-top: 90px;
-  -webkit-appearance: none;
-  appearance: none;
-  height: 5px;
-  background: #012147;
-  outline: none;
-  border-radius: 5px;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 15px;
-  height: 15px;
-  background: rgb(59, 168, 211);
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-input[type="range"]::-moz-range-thumb {
-  width: 15px;
-  height: 15px;
-  background: #4CAF50;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
 .datePicker {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
   margin-top: 20px;
-  margin-bottom: 20px
+  margin-bottom: 30px;
+}
+
+.datePicker input {
+  width: 70%;
+  padding: 3px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .datePicker img {
+  position: absolute;
+  right: 15%;
   padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.schedulerBtnWrapper {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedulerBtn {
+  width: 70%;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  border: none;
+  background-color: #87CEEB;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.schedulerBtn:hover {
+  background-color: #00709c; /* Lighter shade of sky blue on hover */
+}
+
+.slider {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 30px;
+  height: 10px;
+  background:white;
+  border-radius: 10px;
+  outline: none;
+  opacity: 0.7;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #2196F3;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: #0d47a1;
 }

@@ -42,9 +42,12 @@ export const Presentation = ({images}) => {
             <input type='text' readOnly='readonly' value='Seleccione fecha de salida'/>
             <img src={cal}/>
           </div>
-          <input type='range' min='0' max={images.length - 1} step='0' value={step} onChange={stepChangeHandler}/>
+          <div className='schedulerBtnWrapper'>
+            <button className='schedulerBtn'>Ver excursiones</button>
+          </div>
       </div>
       {getBackgrounds(images)}
+      <input className='slider' hidden='true' type='range' min='0' max={images.length - 1} step='0' value={step} onChange={stepChangeHandler}/>
     </div>
   )
 }
