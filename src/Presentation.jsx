@@ -29,24 +29,31 @@ export const Presentation = ({images}) => {
   return (
     <div className='container'>
       <div className='scheduler'>
+
           <div id='titleBar'>
               <img src={sLogo}/>
               <h1>No te pierdas la aventura!</h1>
           </div>
+
           <p>Reservá de manera rápida y simple. Estás a pocos pasos de una gran experiencia.</p>
+
           <div className='datePicker'>
             <input type='text' readOnly='readonly' value='Seleccione fecha de llegada'/>
             <img src={cal}/>
           </div>
+
           <div className='datePicker'>
             <input type='text' readOnly='readonly' value='Seleccione fecha de salida'/>
             <img src={cal}/>
           </div>
+
           <div className='schedulerBtnWrapper'>
             <button className='schedulerBtn'>Ver excursiones</button>
           </div>
       </div>
+
       {getBackgrounds(images)}
+      
       <input className='slider' hidden='true' type='range' min='0' max={images.length - 1} step='0' value={step} onChange={stepChangeHandler}/>
     </div>
   )
