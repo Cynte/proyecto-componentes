@@ -9,7 +9,8 @@ export const TopMenuBar = ({logo}) => {
       <img className='flag' src={spanish}/>
       <input className='slider' type='range' min='0' max='1'/>
       <img className='flag' src={english}/>
-      <a className='rDivider'>Excursiones</a>
+      <a className='rDivider'>Inicio</a>
+      <a>Excursiones</a>
       <a>Sobre nosotros</a>
       <a>Menu</a>
     </div>

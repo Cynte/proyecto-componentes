@@ -1,22 +1,16 @@
 import './App.css';
-import { Presentation } from './Presentation';
-import { TopMenuBar } from './TopMenuBar';
-import logo from './images/KaluKosten.png'
+import { Trips } from './Trips'
+import { Home } from './Home';
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
 
-  const images = [
-    require('./images/jpeg-optimizer_iStock-1080073590.jpg'),
-    require('./images/jpeg-optimizer_iStock-1219739606.jpg'),
-    require('./images/jpeg-optimizer_iStock-1282110732.jpg'),
-    require('./images/jpeg-optimizer_iStock-1328216244.jpg'),
-    require('./images/jpeg-optimizer_iStock-475774878.jpg')
-  ]
-
   return (
     <>
-    <TopMenuBar logo={logo}/>
-    <Presentation /* unavailables={unavailables} */ images={images}/>
+      <Routes>
+        <Route path='/proyecto-componentes' exact Component={Home}/>
+        <Route path='/proyecto-componentes/trips' Component={Trips}/>
+      </Routes>
     </>
   );
 }
