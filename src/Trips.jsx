@@ -11,10 +11,6 @@ export const Trips = () => {
   return (
     <div>
         <TopMenuBar logo={logo}/>
-        <div className='placeholderTextContainer'>
-        <h1 className='placeholderText'>En esta página habría un catálogo mostrando las excursiones disponibles</h1>
-
-        </div>
         <ChangingBackgrounds images={images}/>
     </div>
   )

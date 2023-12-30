@@ -172,11 +172,3 @@ p {
   bottom: 20px;
   left: 13px;
 }
-
-.placeholderText {
-  font-size: 700%;
-  position: absolute;
-  top: 0%;
-  left: 30%;
-  color: black;
-}
